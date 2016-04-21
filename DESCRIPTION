@@ -1,0 +1,15 @@
+Package: GoogleLocationHistory
+Title: Read and Parse Google Location History KML
+Version: 0.1.0
+Authors@R: person("Cory", "Nissen", email = "corynissen@gmail.com", role = c("aut", "cre"))
+Maintainer: Cory Nissen <corynissen@gmail.com>
+Description: There is no official API to get your Google location history. This
+    package uses rvest to login to Google and download your location history in a
+    KML file and parse it into a dataframe object.
+License: MIT + file LICENSE
+LazyData: TRUE
+Imports:
+    xml2,
+    rvest,
+    httr
+RoxygenNote: 5.0.1
